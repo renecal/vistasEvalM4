@@ -19,9 +19,7 @@
                   <a class="nav-link" href="#">Mi Perfil</a>
                 </li>
               </ul>
-              <div>
-                <a href="#" class="user"><i class="fa fa-user"></i></a>
-              </div>
+        		<div class="text-white"><button data-toggle="modal" data-target="#salirModal" class="btn bg-transparent text-white">Logout</button></div>
             </div>
           </nav>
     </header>
