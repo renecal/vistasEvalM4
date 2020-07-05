@@ -4,30 +4,13 @@
 </jsp:include>
 	<main>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Mi Empresa Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">Panel</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Mi Perfil</a>
-                </li>
-              </ul>
-        		<div class="text-white"><button data-toggle="modal" data-target="#salirModal" class="btn bg-transparent text-white">Logout</button></div>
-            </div>
-          </nav>
+        <%@ include file="template/parts/nav.jsp" %>	
     </header>
     <div class="separator-50"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-12 mx-auto">
-                <div class="card">
+                <div class="card shadow">
                     <div class="card-header bg-primary text-white">
                         <h2>Mi Perfil</h2>
                     </div>
@@ -86,7 +69,7 @@
         <div class="separator-50"></div>
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card shadow">
                     <div class="card-header bg-primary text-white">
                        <h2> Mi historial de registros de accidentes</h2>
                     </div>
